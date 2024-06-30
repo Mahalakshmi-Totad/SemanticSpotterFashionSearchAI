@@ -109,9 +109,9 @@ llm_chain.invoke(prompt_input)
 To generate the search results by extracting context from user query and using recommendations retrieved from Myntra data set 
 
 ### Challenges you encountered/Lessons learnt
-Choosing the appropriate Text embedding model to go with selected Vector stores required some research.
-I encountered lot of version mismatch and syntax compatibility issues. 
-The response of text embedding did not match the vector stores required data structure so I had to reformat the responses to match it with vector stores requirement while doing retrieval operations.
-So I can say documenting all the libraries used along with their version is a important learning especially while working in agile environment
-I tried to get the record from cvs file that matched the description of generated search result but was not successful due to time constraints.
-I can explore and learn a bit more in this area
+- Choosing the appropriate Text embedding model to go with selected Vector stores required some research.
+- I encountered lot of version mismatch and syntax compatibility issues. 
+- The response of text embedding did not match the vector stores required data structure so I had to reformat the responses to match it with vector stores requirement while doing retrieval operations.
+- So I can say documenting all the libraries used along with their version is a important learning especially while working in agile environment
+- I tried to get the record from cvs file that matched the description of generated search result but was not successful due to time constraints.
+- I can explore and learn a bit more in this area
