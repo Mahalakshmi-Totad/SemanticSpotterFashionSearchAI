@@ -68,12 +68,12 @@ The LangChain framework revolves around the following building blocks:
 
 
 ### LangChain components are being used in following way:
-Model I/O component : provides support to interface with the LLM and generate responses.
-The Model I/O consists of:
-Prompts: I’m using the the Templatization to capture user query and form LLM prompt 
-Language Models: Make calls to language models through common interfaces using Prompt consisting of user query and retrieval results
-Output Parsers: Extract information from model outputs
-Retrieval component : will be used to retrieve the embedding results from Vector Store
+- Model I/O component : provides support to interface with the LLM and generate responses.
+- The Model I/O consists of:
+- Prompts: I’m using the the Templatization to capture user query and form LLM prompt 
+- Language Models: Make calls to language models through common interfaces using Prompt consisting of user query and retrieval results
+- Output Parsers: Extract information from model outputs
+- Retrieval component : will be used to retrieve the embedding results from Vector Store
 
 By combining modules and components, one can quickly build complex LLM-based applications. LangChain is an open-source framework that makes it easier to build powerful and personalizeable applications with LLMs relevant to user’s interests and needs. It connects to external systems to access information required to solve complex problems. It provides abstractions for most of the functionalities needed for building an LLM application and also has integrations that can readily read and write data, reducing the development speed of the application. LangChains's framework allows for building applications that are agnostic to the underlying language model. With its ever expanding support for various LLMs, LangChain offers a unique value proposition to build applications and iterate continuosly.
 
