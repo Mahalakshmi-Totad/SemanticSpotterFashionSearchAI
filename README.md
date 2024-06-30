@@ -17,7 +17,6 @@ Using Myntra dataset containing information about products to create a Generativ
 * ChatOpenAI : gpt-3.5-turbo-0125
 * OpenAIEmbeddings 
 
-
 ### Following are the Libraries used for this project.  :
 - openai
 - pandas
